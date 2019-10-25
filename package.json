@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp dev",
-    "build": "npm i && gulph build"
+    "build": "npm i && gulp build"
   },
   "keywords": [],
   "author": "",
