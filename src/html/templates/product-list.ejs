@@ -1,0 +1,48 @@
+<% include ../partials/head-start %>
+<link rel="stylesheet" href="/assets/css/product-list.css">
+<% include ../partials/head-end %>
+
+<% include ../partials/header %>
+
+<main>
+    <h2>Produktkategori</h2>
+    <p id="product-category-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat adipisci aliquid sint sed minima et, asperiores sequi, ex inventore quidem autem. Laudantium corporis, doloribus rerum vel sapiente dolores possimus. Nemo.</p>
+
+    <ul id="product-category-list">
+        
+    </ul>
+</main>
+
+<template id="list-item-template">
+    <li>
+        <figure>
+            <img class="product-img" src="/assets/img/hero-bg.jpg" alt="">
+        </figure>
+        <section>
+            <h3 class="product-name"></h3>
+            <section class="small-text product-desc"></section>
+
+            <table class="small-text">
+                <tbody>
+                    <tr>
+                        <td>Land</td>
+                        <td class="product-country"></td>
+                    </tr>
+                    <tr>
+                        <td>Vægt</td>
+                        <td><span class="product-weight"></span>g</td>
+                    </tr>
+                    <tr>
+                        <td>Pris</td>
+                        <td>DKK <span class="product-price"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="product-link small-text" href="">Read more...</>
+        </section>
+    </li>
+</template>
+
+<script src="/assets/js/product-list.js"></script>
+
+<% include ../partials/doc-end %>

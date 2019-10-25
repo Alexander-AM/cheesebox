@@ -1,0 +1,50 @@
+[
+    {
+        "sku": "16421a",
+        "name": "Feta",
+        "price": 30.5,
+        "weight": 250,
+        "country": "Greece",
+        "description": [
+            "Feta cheese is a thing that exists."
+        ],
+        "images": [
+            "hero-bg.jpg",
+            "hero-bg.jpg",
+            "hero-bg.jpg",
+            "hero-bg.jpg"
+        ]
+    },
+    {
+        "sku": "6415f",
+        "name": "Mozzarella",
+        "price": 24.75,
+        "weight": 200,
+        "country": "Italy",
+        "description": [
+            "Mozzarella cheese is a thing that exists."
+        ],
+        "images": [
+            "hero-bg.jpg",
+            "hero-bg.jpg",
+            "hero-bg.jpg",
+            "hero-bg.jpg"
+        ]
+    },
+    {
+        "sku": "53451d",
+        "name": "Brie",
+        "price": 35,
+        "weight": 150,
+        "country": "Dansk",
+        "description": [
+            "Brie cheese is a thing that exists."
+        ],
+        "images": [
+            "hero-bg.jpg",
+            "hero-bg.jpg",
+            "hero-bg.jpg",
+            "hero-bg.jpg"
+        ]
+    }
+]

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap");
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+main {
+  padding: 100px 80px;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+figure {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0 0 1rem 0; }
+
+h1 {
+  color: #A2A374;
+  font-weight: 700;
+  -webkit-text-stroke: 2px black;
+  font-size: 4rem; }
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem; }
+
+h3 {
+  font-weight: 400;
+  font-size: 1.25rem; }
+
+h4 {
+  font-weight: 400;
+  font-size: 1.15rem; }
+
+.small-text {
+  font-size: 0.8rem; }
+
+header {
+  background-color: black;
+  position: fixed;
+  font-family: "Bitter", sans-serif;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 15px 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box; }
+  header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; }
+    header ul li a {
+      text-decoration: none;
+      color: white;
+      margin-left: 50px; }
+
+#product-category-description {
+  max-width: 45%;
+  width: 100%; }
+
+#product-category-list {
+  list-style: none;
+  padding: 20px 20px 20px 0;
+  margin: 0; }
+  #product-category-list li {
+    display: flex;
+    max-width: 70%;
+    width: 100%;
+    padding: 20px 20px 20px 0; }
+    #product-category-list li section {
+      position: relative;
+      width: 100%; }
+    #product-category-list li figure img {
+      height: 200px;
+      margin-right: 10px; }
+    #product-category-list li table {
+      position: absolute;
+      bottom: 20px;
+      border-spacing: 0px 5px; }
+      #product-category-list li table td {
+        width: 120px; }
+    #product-category-list li h3 {
+      margin-bottom: 5px; }
+  #product-category-list a {
+    color: #C83939;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: 0; }

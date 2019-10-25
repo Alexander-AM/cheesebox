@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/assets/css/product-list.css">
+    <title>Cheeseshop</title>
+</head>
+<body>
+
+<header>
+    <span>Brians Ostebiks</span>
+    <nav>
+        <ul>
+            <li><a href="#">Oste</a></li>
+            <li><a href="#">Vin</a></li>
+            <li><a href="#">Brød</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Produktkategori</h2>
+    <p id="product-category-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat adipisci aliquid sint sed minima et, asperiores sequi, ex inventore quidem autem. Laudantium corporis, doloribus rerum vel sapiente dolores possimus. Nemo.</p>
+
+    <ul id="product-category-list">
+        
+    </ul>
+</main>
+
+<template id="list-item-template">
+    <li>
+        <figure>
+            <img class="product-img" src="/assets/img/hero-bg.jpg" alt="">
+        </figure>
+        <section>
+            <h3 class="product-name"></h3>
+            <section class="small-text product-desc"></section>
+
+            <table class="small-text">
+                <tbody>
+                    <tr>
+                        <td>Land</td>
+                        <td class="product-country"></td>
+                    </tr>
+                    <tr>
+                        <td>Vægt</td>
+                        <td><span class="product-weight"></span>g</td>
+                    </tr>
+                    <tr>
+                        <td>Pris</td>
+                        <td>DKK <span class="product-price"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="product-link small-text" href="">Read more...</>
+        </section>
+    </li>
+</template>
+
+<script src="/assets/js/product-list.js"></script>
+
+</body>
+</html>

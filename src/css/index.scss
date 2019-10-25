@@ -1,0 +1,60 @@
+@import "base";
+@import "header";
+
+body {
+    background-image: url("../img/hero-bg.jpg");
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    padding: 50px 80px;
+}
+
+#banner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        width: 50%;
+        text-align: right;
+        position: relative;
+        left: 50%;
+    }
+
+    h2 {
+        text-align: right;
+        color: white;
+    }
+
+    a {
+        color: #C83939;
+        text-decoration: none;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    #banner-fact-section {
+        background-color: #FFFFFF80;
+        padding: 70px 20px;
+        justify-content: center;
+        display: flex;
+
+        & > section, & > figure, & > figure img {
+            width: 100%;
+        }
+
+        & > section {
+            margin-left: 10px;
+            font-size: 0.85rem;
+            position: relative;
+        }
+    }
+}
