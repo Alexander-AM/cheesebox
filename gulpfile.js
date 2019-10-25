@@ -105,5 +105,5 @@ gulp.task("build", function(next) {
     images();
     html();
     
-    next();
+    //next();
 });
