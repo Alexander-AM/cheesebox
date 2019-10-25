@@ -94,5 +94,16 @@ gulp.task("dev", function(next) {
         livereload: true,
         root: "dist"
     });
+
+    next();
+});
+
+gulp.task("build", function(next) {
+    js();
+    json();
+    scss();
+    images();
+    html();
+    
     next();
 });
